@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ethical Hackers Hub</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Ethical Hackers Hub</h1>
+        <nav>
+            <button id="loginBtn">Login</button>
+            <button id="logoutBtn" style="display:none;">Logout</button>
+        </nav>
+    </header>
+
+    <section class="hero">
+        <h2>Master the Art of Ethical Hacking</h2>
+        <p>Secure the web. Learn and grow with the best tools in cybersecurity.</p>
+    </section>
+
+    <section class="about">
+        <h2>About Us</h2>
+        <p>We are a group of professional ethical hackers passionate about teaching the next generation of cybersecurity experts. Join us in the fight against cybercrime.</p>
+    </section>
+
+    <section class="tools-services">
+        <h2>Tools & Services</h2>
+        <ul>
+            <li>Penetration Testing</li>
+            <li>Vulnerability Assessment</li>
+            <li>Wi-Fi Hacking Simulations</li>
+            <li>Bug Bounty Training</li>
+        </ul>
+    </section>
+
+    <section class="testimonials">
+        <h2>Customer Testimonials</h2>
+        <blockquote>"The best cybersecurity training platform I've ever used!" – Jane D.</blockquote>
+        <blockquote>"Helped me land my first job in ethical hacking." – Mark T.</blockquote>
+    </section>
+
+    <section class="booking">
+        <h2>Book a Session</h2>
+        <form id="bookingForm">
+            <input type="text" placeholder="Your Name" required>
+            <input type="email" placeholder="Email Address" required>
+            <textarea placeholder="Message" required></textarea>
+            <button type="submit">Book Now</button>
+        </form>
+    </section>
+
+    <section class="login-form" id="loginSection" style="display: none;">
+        <h2>Login</h2>
+        <form id="loginForm">
+            <input type="text" id="username" placeholder="Username" required>
+            <input type="password" id="password" placeholder="Password" required>
+            <button type="submit">Login</button>
+        </form>
+        <p id="loginError" class="error"></p>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
